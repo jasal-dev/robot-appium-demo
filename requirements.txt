@@ -1,0 +1,3 @@
+selenium==4.41.0                   # UI automation for Appium
+robotframework==7.4.2              # Robot Framework core
+Appium-Python-Client==5.2.7        # Appium client for Python

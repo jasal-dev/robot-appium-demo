@@ -115,9 +115,11 @@ That split is useful once the suite grows beyond a handful of tests, because it 
 - It currently has limited maintenance activity, which is a risk for a core dependency.
 - Real projects almost always need custom mobile behavior, and mixing a third-party keyword library with many custom low-level keywords tends to produce an inconsistent test API.
 - Heavy business logic in Robot syntax does not scale well when the test set expands or when the framework needs to support multiple devices, OS versions, or both Android and iOS.
+- Using Appium directly provides full control and makes it easier to build stable and fast tests.
 
 ### Known issues
 - The structure is a bit overcomplicated for a project of this size, but the benefits should be more visible with a larger set of tests.
 - The locators are not quite optimal, unfortunately the selected app was not very accessible.
+- Some components should be separated from the POM files into component files, such as bottom sheets and input dialogs with buttons.
 
 
